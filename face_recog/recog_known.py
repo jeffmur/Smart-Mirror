@@ -8,9 +8,12 @@ from datetime import datetime
 import signal,sys,time    
 from google.cloud import pubsub_v1
 
-# TODO(developer)
-project_id = "smartmirror-fba08"
-topic_id = "faceRecon"
+# TODO (developer config)
+project_id = "{GOOGLE_CLOUD_PROJECT_ID}"
+topic_id = "{GOOGLE_PUB_SUB_ENDPOINT}"
+# Images and Names
+known_users = [User("Bob", "path/to/Bob.jpg"), User("Alice", "path/to/Alice.jpg")]
+# end config 
 
 publisher = pubsub_v1.PublisherClient()
 topic_path = publisher.topic_path(project_id, topic_id)
@@ -89,8 +92,6 @@ class User:
 
 # Get a reference to webcam #0 (the default one)
 video_capture = cv2.VideoCapture(0)
-
-known_users = [User("Jeffrey", "jeffrey.jpg"), User("Alyssa", "alyssa.jpg"), User("Dad", "dad.jpg")]
 
 # Create arrays of known face encodings and their names
 known_face_encodings = [x.loadEncoding() for x in known_users]
