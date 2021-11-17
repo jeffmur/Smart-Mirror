@@ -1,7 +1,7 @@
 ## Smart Mirror Demo
 
-[![Smart Mirror Demo](https://www.youtube.com/embed/5QshXc3VS9g)](https://www.youtube.com/embed/5QshXc3VS9g)
-
+<!-- ![Smart Mirror Demo](https://www.youtube.com/embed/5QshXc3VS9g) -->
+![Thumbnail](https://img.youtube.com/vi/5QshXc3VS9g/0.jpg)(![Video](https://www.youtube.com/watch?v=5QshXc3VS9g) "Smart Mirror Demo - Click to Watch!")
 ## Wake Word
 My wakeword is set to "jarvis", others include :
 ``` js
