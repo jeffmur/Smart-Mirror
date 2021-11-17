@@ -1,24 +1,26 @@
 ## Smart Mirror Demo
 
-<!-- ![Smart Mirror Demo](https://www.youtube.com/embed/5QshXc3VS9g) -->
-![Thumbnail](https://img.youtube.com/vi/5QshXc3VS9g/0.jpg)(![Video](https://www.youtube.com/watch?v=5QshXc3VS9g) "Smart Mirror Demo - Click to Watch!")
+![Banner](./firebase-smarthome/src/MyMirror.png)
+
+[Click Here to watch the demo](https://www.youtube.com/watch?v=5QshXc3VS9g) 
+
 ## Wake Word
 My wakeword is set to "jarvis", others include :
 ``` js
-  ALEXA: ALEXA,
-  AMERICANO: AMERICANO,
-  BLUEBERRY: BLUEBERRY,
-  BUMBLEBEE: BUMBLEBEE,
-  COMPUTER: COMPUTER,
-  GRAPEFRUIT: GRAPEFRUIT,
-  GRASSHOPPER: GRASSHOPPER,
-  HEY_GOOGLE: HEY_GOOGLE,
-  HEY_SIRI: HEY_SIRI,
-  JARVIS: JARVIS,
-  OK_GOOGLE: OK_GOOGLE,
-  PICOVOICE: PICOVOICE,
-  PORCUPINE: PORCUPINE,
-  TERMINATOR: TERMINATOR,
+ALEXA: ALEXA,
+AMERICANO: AMERICANO,
+BLUEBERRY: BLUEBERRY,
+BUMBLEBEE: BUMBLEBEE,
+COMPUTER: COMPUTER,
+GRAPEFRUIT: GRAPEFRUIT,
+GRASSHOPPER: GRASSHOPPER,
+HEY_GOOGLE: HEY_GOOGLE,
+HEY_SIRI: HEY_SIRI,
+JARVIS: JARVIS,
+OK_GOOGLE: OK_GOOGLE,
+PICOVOICE: PICOVOICE,
+PORCUPINE: PORCUPINE,
+TERMINATOR: TERMINATOR,
 ```
 This is configurable in the config/config.js in MagicMirror directory. 
 
