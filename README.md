@@ -1,9 +1,9 @@
 ## Smart Mirror Demo
 
-<iframe width="892" height="511" src="https://www.youtube.com/embed/5QshXc3VS9g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Smart Mirror Demo](https://www.youtube.com/embed/5QshXc3VS9g)](https://www.youtube.com/embed/5QshXc3VS9g)
 
-## Types of User Intent: 
-My wakeword is set to "Jarvis", others include :
+## Wake Word
+My wakeword is set to "jarvis", others include :
 ``` js
   ALEXA: ALEXA,
   AMERICANO: AMERICANO,
@@ -21,6 +21,14 @@ My wakeword is set to "Jarvis", others include :
   TERMINATOR: TERMINATOR,
 ```
 This is configurable in the config/config.js in MagicMirror directory. 
+
+## User Intents
+| Attribute | Query | Resource |
+| --- | --- | --- |
+| Volume | "Turn the volume up" <br> "Turn the volumn down" <br> "Set the volume to {VALUE} (0-100)" | [docs](https://developers.google.com/assistant/smarthome/traits/volume)
+| OnOff | "Turn off the mirror" <br> "Turn on the mirror" | [docs](https://developers.google.com/assistant/smarthome/traits/onoff)
+
+The current configuration is for a "Smart TV" which allows for even more configurations such as: Transport Control, App Selector, Input Selector, and more you can find [here](https://developers.google.com/assistant/smarthome/guides/tv)
 
 ## Hardware Configuration
 | Device | Operating System | Components | Getting Started |
