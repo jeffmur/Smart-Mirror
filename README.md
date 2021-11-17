@@ -1,7 +1,26 @@
-# Smart-Mirror
-Google Assistant + Facial Recognition
+## Smart Mirror Demo
 
-**Todo: insert demo video with UI and interactions**
+<iframe width="892" height="511" src="https://www.youtube.com/embed/5QshXc3VS9g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Types of User Intent: 
+My wakeword is set to "Jarvis", others include :
+``` js
+  ALEXA: ALEXA,
+  AMERICANO: AMERICANO,
+  BLUEBERRY: BLUEBERRY,
+  BUMBLEBEE: BUMBLEBEE,
+  COMPUTER: COMPUTER,
+  GRAPEFRUIT: GRAPEFRUIT,
+  GRASSHOPPER: GRASSHOPPER,
+  HEY_GOOGLE: HEY_GOOGLE,
+  HEY_SIRI: HEY_SIRI,
+  JARVIS: JARVIS,
+  OK_GOOGLE: OK_GOOGLE,
+  PICOVOICE: PICOVOICE,
+  PORCUPINE: PORCUPINE,
+  TERMINATOR: TERMINATOR,
+```
+This is configurable in the config/config.js in MagicMirror directory. 
 
 ## Hardware Configuration
 | Device | Operating System | Components | Getting Started |
