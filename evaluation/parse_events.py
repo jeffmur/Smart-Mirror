@@ -8,12 +8,12 @@ def formatTimeToList(outputList, fileLines, format):
         to_datetime = datetime.strptime(timestamp, format)
         outputList.append(to_datetime)
 
-jetson = open('jetson-NAT-2.txt', 'r')
+jetson = open('TRIAL.txt', 'r')
 jet_lines = jetson.readlines()
 list_pub = []
 formatTimeToList(list_pub, jet_lines, "%Y-%m-%d %H:%M:%S.%f")
 
-rasbpi = open('raspi-NAT-2.txt', 'r')
+rasbpi = open('TRIAL.txt', 'r')
 ras_lines = rasbpi.readlines()
 list_rec = []
 formatTimeToList(list_rec, ras_lines, "%d.%m.%Y %H:%M.%S.%f")

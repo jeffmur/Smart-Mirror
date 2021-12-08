@@ -5,8 +5,8 @@ import signal,sys,time
 from google.cloud import pubsub_v1
 
 # TODO(developer)
-project_id = "smartmirror-fba08"
-topic_id = "faceRecon"
+project_id = "YOUR PROJECT ID"
+topic_id = "PUB SUB ID"
 
 publisher = pubsub_v1.PublisherClient()
 topic_path = publisher.topic_path(project_id, topic_id)
