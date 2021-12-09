@@ -51,13 +51,14 @@ let config = {
 				sensitivity: [.7],
 				audioDeviceIndex: 0,
 			},
-			classes: 'everyone'
+			classes: 'everyone' // authorized users only
 		},
 		{
 			module: 'MMM-ProfileSwitcher',
 			config : { 
 				defaultClass: "default",
 				
+				// User Names that correspond to users created for facial recognition
 				enterMessages: {
 					"Bob Alice": "Hey %profile%!", // We both have this message
 					"Kevin" : "Welcome to Magic Mirror %profile%."

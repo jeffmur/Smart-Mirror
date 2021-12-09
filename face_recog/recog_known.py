@@ -11,8 +11,6 @@ from google.cloud import pubsub_v1
 # TODO (developer config)
 project_id = "{GOOGLE_CLOUD_PROJECT_ID}"
 topic_id = "{GOOGLE_PUB_SUB_ENDPOINT}"
-# Images and Names
-known_users = [User("Bob", "path/to/Bob.jpg"), User("Alice", "path/to/Alice.jpg")]
 # end config 
 
 publisher = pubsub_v1.PublisherClient()
@@ -93,6 +91,10 @@ class User:
 # Get a reference to webcam #0 (the default one)
 video_capture = cv2.VideoCapture(0)
 
+## Images and Names
+# TODO: Users and local encodings
+known_users = [User("Bob", "path/to/Bob.jpg"), User("Alice", "path/to/Alice.jpg"), User("Kevin", "path/to/Kevin.jpg")]
+
 # Create arrays of known face encodings and their names
 known_face_encodings = [x.loadEncoding() for x in known_users]
 known_face_names = [x.name for x in known_users]
@@ -157,7 +159,7 @@ while True:
     process_this_frame = not process_this_frame
 
 
-    # Display the results
+    # Display the results - Testing
     # for (top, right, bottom, left), name in zip(face_locations, face_names):
     #     # Scale back up face locations since the frame we detected in was scaled to 1/4 size
     #     top *= 4
