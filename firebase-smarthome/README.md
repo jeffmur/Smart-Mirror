@@ -4,6 +4,8 @@ This can be placed on any device. This is the deployment for Firebase Functions.
 
 Codelab: [Smarthome-Washer](https://kiosk-dot-codelabs-site.appspot.com/codelabs/smarthome-washer/index.html?index=..%2F..index#1) for getting started with example + walkthrough. 
 
+This is a Firebase Function and device attributes that will upload to a Realtime Database.
+
 ## Setup Firebase on Raspiberry Pi 
 **Install:**
 ``` sh
@@ -34,6 +36,9 @@ Google App Creds are used for Magic Mirror Pub Sub API, and not required for Fir
 ![](src/firebase-init.png) 
 
 Select: Realtime Datase, Functions, Hosting, and follow prompt. I highly recommend the CodeLabs before attempting to setup this repository. 
+
+**Result in Realtime Database**
+A successful deployment + setup of a Realtime Database on your Google Project will result in ![](src/RealtimeDatabase.png)
 
 **Result:**
 Successful deployment will create a testing interface at https:<project_id>.web.app/
