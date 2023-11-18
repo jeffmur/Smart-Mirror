@@ -6,8 +6,6 @@
 
 [Click Here to watch the demo](https://www.youtube.com/watch?v=5QshXc3VS9g)
 
-![](./mirror-arch.png)
-
 ## Wake Word
 My wakeword is set to "jarvis", others include :
 ``` js
@@ -41,6 +39,12 @@ The current configuration is for a "Smart TV" which allows for even more configu
 | --- | --- | --- | --- | 
 | Jetson Nano 2GB | Linux4Tegra (Ubuntu 18.04) | Python3, DLIB, CUDA | [setup + install](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-2gb-devkit), [README](./face_recog/README.md) |
 | Raspberry Pi 4 | Debian 11 (bullseye) | MagicMirror + Modules | [generic setup](https://www.raspberrypi.com/documentation/computers/getting-started.html), [README](./firebase-smarthome/README.md)
+
+## Data Flow Diagram
+
+Outline the relationship between Google Cloud Platform and Smart Mirror components.
+
+![](./mirror-arch.png)
 
 ## Device Packages + Organization
 For the Jetson Nano 2GB, setup the following: 
