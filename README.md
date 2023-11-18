@@ -2,7 +2,11 @@
 
 ![Banner](./firebase-smarthome/src/MyMirror.png)
 
-[Click Here to watch the demo](https://www.youtube.com/watch?v=5QshXc3VS9g) 
+[Whitepaper](./532-smart-mirror.pdf)
+
+[Click Here to watch the demo](https://www.youtube.com/watch?v=5QshXc3VS9g)
+
+![](./mirror-arch.png)
 
 ## Wake Word
 My wakeword is set to "jarvis", others include :
